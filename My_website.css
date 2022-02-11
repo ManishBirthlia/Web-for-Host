@@ -1,0 +1,331 @@
+* {
+  font-family: "Baloo Bhai 2", cursive;
+  padding: 0px;
+  justify-content: center;
+  border-radius: 5px;
+  transition: all .4s ease-in;
+}
+#Back_Video {
+  z-index: -100;
+  position: fixed;
+  left: 0;
+  top: 0;
+  /* width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: absolute; */
+  min-width: 120%;
+  min-height: 100%;
+}
+em {
+  padding: 11px 36px;
+}
+#TempA {
+  color: #7d37c9;
+  text-decoration: underline;
+  background-color: #c36322;
+  border-radius: 45px;
+  padding: 0px 6px;
+}
+#TempA:hover {
+  background-color: rgba(137, 43, 226, 0);
+  transition: 0.5s;
+}
+.a_nav {
+  text-decoration: none;
+  color: #dfc1ff;
+}
+.a_nav:hover {
+  text-decoration: underline;
+  color: #733baf;
+}
+#home_img {
+  position: relative;
+  top: 11px;
+  left: 2px;
+  /* padding: 7px 0px 0px 0px; */
+  width: 2em;
+}
+#home_img:hover {
+  position: relative;
+  top: 11px;
+  left: 2px;
+  width: 2.5em;
+  transition: 0.2s;
+}
+#nav_img {
+  padding: 20px 0px 0px 0px;
+  width: 1.2em;
+}
+#nav_img:hover {
+  padding: 20px 0px 0px 0px;
+  width: 1.4em;
+  transition: 0.2s;
+}
+/* #nav1{
+    filter: invert(0);
+}
+
+#nav2{
+} */
+#nav_img {
+  filter: invert(100);
+}
+#nav2 {
+  padding: 14px 0px;
+  position: absolute;
+  right: 0px;
+}
+.box {
+  margin: 12px 18px;
+  padding: 0px 0px;
+  height: 248px;
+  width: 279px;
+  border-radius: 10px;
+}
+.box1 {
+  /* border: 2px solid black; */
+  text-decoration: none;
+  position: sticky;
+  top: 2px;
+  margin: 2px 5px;
+  padding: 2px 5px;
+  font-size: 2em;
+  z-index: 150;
+  background-color: #0000006b;
+}
+#flex1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  display: flex;
+  height: 90px;
+}
+.flex_3 {
+  width: 949px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+#flex3 {
+  margin: 0px -13px;
+  position: relative;
+  top: 90px;
+}
+.nav {
+  margin: 0px 85px 0px 101px;
+}
+.Main_pics:hover {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-size: 200%;
+  transition: 0.5s;
+}
+._1 {
+  background-image: url(WebPhoto/1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._2 {
+  background-image: url(WebPhoto/3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._3 {
+  background-image: url(WebPhoto/4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._4 {
+  background-image: url(WebPhoto/man-ge1c176382_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._5 {
+  background-image: url(WebPhoto/alley-g685f72277_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._6 {
+  background-image: url(WebPhoto/anime-g109870293_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._7 {
+  background-image: url(WebPhoto/blackboard-gbc6d8e936_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._8 {
+  background-image: url(WebPhoto/box-g5f0cd887d_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._9 {
+  background-image: url(WebPhoto/car-g760636021_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._10 {
+  background-image: url(WebPhoto/clouds-gdd7cab82a_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._11 {
+  background-image: url(WebPhoto/couple-g2a7af4387_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._12 {
+  background-image: url(WebPhoto/dumbbell-gb0ae04048_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._13 {
+  background-image: url(WebPhoto/fantasy-g11fbf2081_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._14 {
+  background-image: url(WebPhoto/fitness-g82a1fef69_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._15 {
+  background-image: url(WebPhoto/forest-g87be3a5a8_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._16 {
+  background-image: url(WebPhoto/horse-g743c46e76_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._17 {
+  background-image: url(WebPhoto/man-ge1c176382_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._18 {
+  background-image: url(WebPhoto/milky-way-g03a2f2e10_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._19 {
+  background-image: url(WebPhoto/nature-ge102c8083_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._20 {
+  background-image: url(WebPhoto/ninja-g49a7baa03_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._21 {
+  background-image: url(WebPhoto/secret-gee2a0b330_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._22 {
+  background-image: url(WebPhoto/fantasy-g11fbf2081_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._23 {
+  background-image: url(WebPhoto/dumbbell-gb0ae04048_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+._24 {
+  background-image: url(WebPhoto/wallpapers-g8815cc158_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.main1 {
+  display: flex;
+  top: 90px;
+  position: relative;
+}
+.main2 {
+  width: 3753px;
+}
+#nav1 {
+  width: 50px;
+  position: absolute;
+  left: 0px;
+  margin: 2px 0px 5px 10px;
+}
+/* #nav2 {
+  
+} */
+.checkbtn {
+  display: none;
+}
+input {
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  #nav2 {
+    /* display: none; */
+    position: absolute;
+    right: 0px;
+    margin: 0px;
+    padding: 22px 0px;
+  }
+  #home_img {
+    position: relative;
+    top: 17px;
+    left: 2px;
+    /* padding: 7px 0px 0px 0px; */
+    width: 2em;
+  }
+  #flex1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 1014px) {
+  #flex1 {
+    font-size: 1.3rem;
+    height: 69px;
+  }
+  #nav2 {
+    padding: 27px 0px;
+  }
+  .nav_mid {
+    margin: 21px;
+    padding: 0px;
+  }
+  #check:checked ~ #nav2 {
+    left: 0%;
+  }
+}
+@media screen and (max-width: 784px) {
+  #nav2 {
+    display: flex;
+    position: fixed;
+    top: 73px;
+    width: 100%;
+    left: -100%;
+    backdrop-filter: blur(10px);
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main2 {
+    display: none;
+  }
+  .checkbtn {
+    display: block;
+    position: absolute;
+    right: 0px;
+  }
+}
+@media screen and (max-width: 1440px) {
+}
